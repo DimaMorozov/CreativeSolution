@@ -1,0 +1,30 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    height: 100%;
+}
+body, html {
+    min-height: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+li{
+  list-style-type: none;
+}
