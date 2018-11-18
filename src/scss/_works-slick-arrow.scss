@@ -1,0 +1,27 @@
+.prev {
+  display: none !important;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1111;
+  cursor: pointer;
+
+  @media all and (min-width: 768px) {
+    display: block !important;
+  }
+}
+
+.next {
+  display: none !important;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1111;
+  cursor: pointer;
+
+  @media all and (min-width: 768px) {
+    display: block !important;
+  }
+}

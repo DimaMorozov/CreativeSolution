@@ -110,5 +110,17 @@ $('a[href*="#"]')
     }
   });
 
+// Works slider
 
+$('.works__slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  autoplay: true,
+  cssEase: 'linear',
+  prevArrow: $('.prev'),
+  nextArrow: $('.next'),
+  dotsClass: "dots",
+});
 

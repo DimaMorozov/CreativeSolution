@@ -92,6 +92,12 @@
     font-style: italic;
     text-align: center;
     color: #7d7a7c;
+    
+    &:hover{
+      color: #9f9acf;
+      background-color: #FFF;
+      border: 1px solid #9f9acf;
+    }
   }
 }
 
