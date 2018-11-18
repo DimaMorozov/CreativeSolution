@@ -11,60 +11,164 @@
 </head>
 
 <body>
-  <header class="header" id="home">
-    <div class="container">
-      <div class="header__menu">
-        <a href="#home" class="logo">
-			<img src="images/icons/Logo.svg" alt="Logo">
-		</a>
-        <div class="burger">
-          <span class="burger__item burger__item--top"></span>
-          <span class="burger__item burger__item--middle"></span>
-          <span class="burger__item burger__item--bottom"></span>
-        </div>
-        <ul class="header__nav">
-          <li class="header__nav-item header__nav-item--home">
-            <a class="header__nav-link" href="#home">Home</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="#about">About</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Services</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Works</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+<header class="header" id="home">
+  <div class="container">
+    <div class="header__menu">
+      <a href="#home" class="logo">
+      <img src="images/icons/Logo.svg" alt="Logo">
+    </a>
+      <div class="burger">
+        <span class="burger__item burger__item--top"></span>
+        <span class="burger__item burger__item--middle"></span>
+        <span class="burger__item burger__item--bottom"></span>
       </div>
-      <h1 class="header__title">CreativE DIGITAL Project</h1>
-      <p class="header__text">Duis mollis, est non commodo luctus,<br> nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+      <ul class="header__nav">
+        <li class="header__nav-item header__nav-item--home">
+          <a class="header__nav-link" href="#home">Home</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#about">About</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#services">Services</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Works</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-  </header>
-  <main>
-    <section class="about" id="about">
-      <div class="container">
-        <div class="about__wrapper">
-          <div class="about__image-wrapper">
-            <a href="#">
-				<img src="images/about-image.png" alt="About Us" class="about__img"></a>
-            <div class="about__img-content">
-              <img src="images/icons/about-icon.png" alt="About Us" class="about__icon">
-              <h2 class="about__title">About Us</h2>
+    <h1 class="header__title">CreativE DIGITAL Project</h1>
+    <p class="header__text">Duis mollis, est non commodo luctus,<br> nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+  </div>
+</header>
+
+<main>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="about__image-wrapper">
+          <a href="#">
+        <img src="images/about-image.png" alt="About Us" class="about__img"></a>
+          <div class="about__img-content">
+            <img src="images/icons/about-icon.png" alt="About Us" class="about__icon">
+            <h2 class="about__title">About Us</h2>
+          </div>
+        </div>
+        <div class="about__content-wrapper">
+          <p class="about__text about__text--top">Nullam quis risus eget urna <span class="about__text--inner">mollis ornare</span> vel eu leo. Donec id elit non mi<br> porta gravida at eget metus. Donec ullamcorper nulla non metus auctor<br> fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor<br> auctor.</p>
+          <p class="about__text about__text--bottom"><span class="about__text--inner">Morbi leo risus</span>, porta ac consectetur ac, vestibulum at eros. Vivamus sagit-<br>tis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo<br> quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Mae-<br>cenas faucibus mollis interdum. Cras mattis consectetur purus sit amet<br> fermentum. Sed posuere consectetur est at lobortis.</p>
+          <button class="button about__button">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__promo">
+        <div class="services__item services__item--gray">
+          <img src="images/icons/services-item1.svg" alt="GRAPHIC DESIGN" class="services__item-icon">
+          <h2 class="services__item-title">GRAPHIC DESIGN</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover1.svg" alt="GRAPHIC DESIGN" class="services__hover-icon">
+              <h2 class="services__hover-title">GRAPHIC DESIGN</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
             </div>
           </div>
-          <div class="about__content-wrapper">
-            <p class="about__text about__text--top">Nullam quis risus eget urna <span class="about__text--inner">mollis ornare</span> vel eu leo. Donec id elit non mi<br> porta gravida at eget metus. Donec ullamcorper nulla non metus auctor<br> fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor<br> auctor.</p>
-            <p class="about__text about__text--bottom"><span class="about__text--inner">Morbi leo risus</span>, porta ac consectetur ac, vestibulum at eros. Vivamus sagit-<br>tis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo<br> quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Mae-<br>cenas faucibus mollis interdum. Cras mattis consectetur purus sit amet<br> fermentum. Sed posuere consectetur est at lobortis.</p>
-            <button class="button about__button">Learn More</button>
+        </div>
+        <div class="services__item">
+          <img src="images/icons/services-item2.svg" alt="WEB DEVELOPMENT" class="services__item-icon">
+          <h2 class="services__item-title">WEB DEVELOPMENT</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover2.svg" alt="WEB DEVELOPMENT" class="services__hover-icon">
+              <h2 class="services__hover-title">WEB DEVELOPMENT</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="services__item services__item--gray">
+          <img src="images/icons/services-item3.svg" alt="OUR SERVICES" class="services__item-icon">
+          <h2 class="services__item-title">OUR SERVICES</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover3.svg" alt="OUR SERVICES" class="services__hover-icon">
+              <h2 class="services__hover-title">OUR SERVICES</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <img src="images/icons/services-item4.svg" alt="SEO & MARKETING" class="services__item-icon">
+          <h2 class="services__item-title">SEO & MARKETING</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover4.svg" alt="SEO & MARKETING" class="services__hover-icon">
+              <h2 class="services__hover-title">SEO & MARKETING</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="services__item services__item--gray">
+          <img src="images/icons/services-item5.svg" alt="MOBILE DEVELOPMENT" class="services__item-icon">
+          <h2 class="services__item-title">MOBILE DEVELOPMENT</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover5.svg" alt="MOBILE DEVELOPMENT" class="services__hover-icon">
+              <h2 class="services__hover-title">MOBILE DEVELOPMENT</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <img src="images/icons/services-item6.svg" alt="Work" class="services__item-icon">
+          <h2 class="services__item-title">OUR WORKS</h2>
+          <p class="services__item-text">Cras mattis consectetur<br> purus sit amet fermentum.</p>
+          <div class="services__hover">
+            <img src="images/services-hover.png" alt="Image" class="services__hover-image">
+            <div class="services__hover-content">
+              <img src="images/icons/services-hover6.svg" alt="OUR WORKS" class="services__hover-icon">
+              <h2 class="services__hover-title">OUR WORKS</h2>
+              <blockquote class="services__hover-text">
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”</p>
+                <span class="services__hover-name">Borat</span>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
+
 
 
 
