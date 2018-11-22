@@ -124,3 +124,22 @@ $('.works__slider').slick({
   dotsClass: "dots",
 });
 
+// Team slider
+$('.team__slider').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  autoplay: true,
+  prevArrow: $('.team__slider-prev'),
+  nextArrow: $('.team__slider-next'),
+});
+
+// Team slider for desktope
+$('.team__slider-lg').slick({
+  infinite: true,
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: $('.team__slider-prev--lg'),
+  nextArrow: $('.team__slider-next--lg'),
+});
