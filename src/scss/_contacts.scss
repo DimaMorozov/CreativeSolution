@@ -1,0 +1,54 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 0;
+
+    &__adress{
+        display: flex;
+    }
+
+    &__content{
+        display: none;
+        text-align: center;
+        background-color:  rgba(235, 235, 235, 0.5);
+        padding: 1.1rem 2.4rem;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    &__icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9f9acf;
+        padding: 1.7rem;
+        cursor: pointer;
+        border: 1px solid transparent;
+
+        &:hover{
+            border: 1px solid white;
+        }
+
+        &--phone{
+            padding: 1.7rem 2.25rem;  
+        }
+    }
+
+    &__phone{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__adress{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__number{
+        display: block;
+        margin-top: 12%;
+    }
+}
+

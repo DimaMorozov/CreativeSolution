@@ -143,3 +143,51 @@ $('.team__slider-lg').slick({
   prevArrow: $('.team__slider-prev--lg'),
   nextArrow: $('.team__slider-next--lg'),
 });
+
+// MAP
+
+$(window).ready(function(){
+  const $map = $('#map');
+  // The location of Kremenchuk
+  var Kremenchuk = {lat: 49.078967, lng:  33.416660};
+
+  // The map, centered at Kremenchuk
+  var map = new google.maps.Map(
+      $map[0], 
+      {zoom: 13, center: Kremenchuk});
+
+  // The marker, positioned at Kremenchuk
+  var marker = new google.maps.Marker({
+    position: Kremenchuk, map: map,
+    icon: "images/icons/map-icon2.png",
+    title: 'Creative Solution',
+    animation: google.maps.Animation.BOUNCE, 
+  });  
+
+  });
+
+// MAP show
+  $('.map__display').click(function() {
+    $('.map__background').fadeToggle();
+  });
+
+  $('.map__display').click(function() {
+    $('.contacts').fadeToggle();
+  });
+
+  // Contacts
+
+  $('.contacts__icon--adress').click(function() {
+    $('.contacts__content--adress').fadeToggle();
+  });
+ 
+  $('.contacts__icon--phone').click(function() {
+    $('.contacts__content--phone').fadeToggle();
+  });
+
+
+ 
+
+  
+
+

@@ -1,0 +1,50 @@
+#map {
+  height: 500px;
+}
+
+.map {
+  position: relative;
+  font-family: $secondary-font;
+  color: $secondary-color;
+
+  &__display {
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active .map__title {
+      color: #9f9acf;
+    }
+  }
+
+  &__icon {
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-family: $base-font;
+    color: $primary-color;
+  }
+
+  &__background {
+    height: 500px;
+    background-color: #9f9acf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -500px;
+    opacity: 0.5;
+  }
+}

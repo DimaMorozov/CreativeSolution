@@ -54,7 +54,7 @@
     position: relative;
     margin: 0 auto;
     width: 90%;
-    margin-top: 6rem;
+    margin-top: 8rem;
 
     @media all and (min-width: 768px) {
       margin-top: 8rem;
@@ -177,10 +177,10 @@
     left: 1%;
     top: 65%;
     cursor: pointer;
-    display: none;
+    display: none !important;
 
     @media all and (min-width: 1024px) {
-      display: block;
+      display: block !important;
     }
 
     @media all and (min-width: 1240px) {
@@ -193,10 +193,10 @@
     right: 1%;
     top: 65%;
     cursor: pointer;
-    display: none;
+    display: none !important;
 
     @media all and (min-width: 1024px) {
-      display: block;
+      display: block !important;
     }
 
     @media all and (min-width: 1240px) {
