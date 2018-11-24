@@ -1,0 +1,38 @@
+.footer{
+    background-color: #9f9acf;
+    padding: 3rem 0;
+
+    &__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media all and (min-width: 1024px){
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    }
+
+    &__text{
+        margin-bottom: 1rem;
+        color: $primary-color;
+        font-family: $base-font;
+    }
+
+    &__icons{
+        display: flex;
+    }
+
+    &__icons-link{
+        margin-right: 1rem;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.5s;
+        }
+    }
+
+
+}

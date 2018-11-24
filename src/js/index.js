@@ -175,6 +175,10 @@ $(window).ready(function(){
     $('.contacts').fadeToggle();
   });
 
+  $('.map__display').click(function() {
+    $('.form').fadeToggle();
+  });
+
   // Contacts
 
   $('.contacts__icon--adress').click(function() {
@@ -185,7 +189,7 @@ $(window).ready(function(){
     $('.contacts__content--phone').fadeToggle();
   });
 
-
+  
  
 
   

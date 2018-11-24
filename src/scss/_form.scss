@@ -1,0 +1,132 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1;
+    overflow: hidden;
+
+    @media all and (min-width: 1024px){
+        max-width: 900px;
+    }
+
+  
+    &__name{
+        margin-bottom: 1rem;
+        padding: 0.3rem 0 0.3rem 0.3rem;
+        background-color:  rgba(235, 235, 235, 0.733);
+        border: none;
+
+        &:active{
+          border: 2px solid red;
+        }
+
+        &:focus{
+            background-color: #9f9acf;
+            color: white;
+        }
+
+        @media all and (min-width: 1024px){
+            margin: 0;
+            width: 48%;
+            padding: 1rem 0 1rem 1rem; 
+        }
+    }
+
+    &__email{
+        padding: 0.3rem 0 0.3rem 0.3rem; 
+        background-color:   rgba(235, 235, 235, 0.733);
+        border: none;
+
+        &:active{
+            border: 2px solid red;
+          }
+  
+          &:focus{
+              background-color: #9f9acf;
+              color: white;
+          }
+
+        @media all and (min-width: 1024px){
+            width: 48%;
+            padding: 1.2rem 0 1.2rem 1.2rem; 
+        }
+    }
+
+    &__textarea{
+        padding: 0.3rem 0 0.3rem 0.3rem; 
+        background-color:  rgba(235, 235, 235, 0.733);
+        border: none;
+        margin-bottom: 3rem;
+
+        &:active{
+            border: 2px solid red;
+          }
+  
+        &:focus{
+            background-color: #9f9acf;
+            color: white;
+          }
+
+        @media all and (min-width: 1024px){
+            padding: 1.2rem 0 1.2rem 1.2rem; 
+            height: 12rem;
+        }
+    }
+
+    &__input{
+        display: flex;
+        flex-direction: column;  
+        margin-bottom: 1rem;
+
+        @media all and (min-width: 1024px){
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    
+
+    &__button{
+        padding: 20px 24px;
+        border-radius: 4px;
+        background-color:  #9f9acf;
+        font-family: $base-font;
+        color:  $primary-color;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 0.975;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+
+        &:hover{
+            background-color:  white;
+            color: #9f9acf;
+        }
+
+        @media all and (min-width: 425px){
+            width: 80%;
+        }
+
+        @media all and (min-width: 570px){
+            width: 80%;
+            font-size: 1.1rem;
+        }
+
+        @media all and (min-width: 768px){
+            width: 40%;
+            font-size: 1.1rem;
+        }
+
+        @media all and (min-width: 1024px){
+            font-size: 1.250rem;
+        }
+     }
+}

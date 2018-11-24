@@ -1,5 +1,5 @@
 #map {
-  height: 500px;
+  height: 950px;
 }
 
 .map {
@@ -39,12 +39,12 @@
   }
 
   &__background {
-    height: 500px;
+    height: 950px;
     background-color: #9f9acf;
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: -500px;
+    margin-top: -950px;
     opacity: 0.5;
   }
 }
